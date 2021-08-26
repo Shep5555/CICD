@@ -1,0 +1,9 @@
+création image : docker build -t my-flask-image:latest .
+
+Pour vérifier : docker images
+
+run : docker run -d -p 5000:5000 my-flask-image
+
+Vérification : docker ps
+
+Plus qu'à aller sur navigateur à l'adresse : http://localhost:5000
